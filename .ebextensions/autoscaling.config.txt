@@ -1,0 +1,6 @@
+Resources:
+   AWSEBAutoscalingGroup:
+      Type: AWS::Autoscaling::AutoscalingGroup
+      Proparties:
+         HealthCheckType: ELB
+         HealthCheckGracePeriod: 300
